@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz da Sonserina</title>
+</head>
+<body>
+    <div id="question1">
+        <p>Você é trouxa?</p>
+        <button onclick="answerYes()">Sim</button>
+        <button onclick="answerNo()">Não</button>
+    </div>
+
+    <div id="question2" style="display: none;">
+        <p>Você tem certeza?</p>
+        <button onclick="secondYes()">Sim</button>
+        <button onclick="secondNo()">Não</button>
+    </div>
+
+    <div id="question3" style="display: none;">
+        <p>Mas e se você for?</p>
+        <button onclick="finalAnswer()">Sou bruxo, é verdade esse bilhete</button>
+    </div>
+
+    <div id="finalMessage" style="display: none;">
+        <p>Ok sua casa é Sonserina, confirme clicando no botão</p>
+        <button onclick="openNewPage()">Confirmar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
